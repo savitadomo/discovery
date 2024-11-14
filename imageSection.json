@@ -5,11 +5,11 @@
     "logoWithBackground",
     "iconWithoutBackground"
   ],
-  "authorName": "Savita",
+  "authorName": "Savita Shinde",
   "validImages": [
-    "iconWithoutBackground",
+    "logoWithBackground",
     "iconWithBackground",
-    "logoWithoutBackground",
-    "logoWithBackground"
+    "iconWithoutBackground",
+    "logoWithoutBackground"
   ]
 }

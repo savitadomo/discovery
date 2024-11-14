@@ -30,7 +30,7 @@
       "showWhen": "",
       "value": null,
       "dateSelectorValue": null,
-      "$$hashKey": "object:972"
+      "$$hashKey": "object:171"
     },
     {
       "name": "para2",
@@ -41,14 +41,13 @@
       "command": {
         "name": "para2",
         "code": "// Create node using discovery.tree as the parent\r\nvar northAmerica = discovery.addNode(discovery.tree,\"North America\");\r\n  // Add Leaves\r\n  discovery.addLeaf(northAmerica,\"Canada\");\r\n  discovery.addLeaf(northAmerica,\"USA\");\r\n  discovery.addLeaf(northAmerica, \"Mexico\");\r\n\r\nvar centralAmerica = discovery.addNode(discovery.tree, \"Central America\");\r\n  discovery.addLeaf(centralAmerica,\"Panama\");\r\n  discovery.addLeaf(centralAmerica,\"Costa Rica\");\r\n\r\nvar southAmerica = discovery.addNode(discovery.tree, \"South America\");\r\n  // Nesting nodes in the southAmerica node\r\n  var west = discovery.addNode(southAmerica, \"West\");\r\n  var east = discovery.addNode(southAmerica, \"East\");\r\n  discovery.addLeaf(east,\"Argentina\");\r\n  discovery.addLeaf(west, \"Chile\");\r\n  discovery.addLeaf(west,\"Peru\");\r\n  discovery.addLeaf(east, \"Brazil\");\r\n\r\n// Remember to publish the tree\r\ndiscovery.publishTree();",
-        "type": "dropdown",
-        "index": 1
+        "type": "dropdown"
       },
       "helpText": null,
       "showWhen": "",
       "value": null,
       "dateSelectorValue": null,
-      "$$hashKey": "object:973",
+      "$$hashKey": "object:172",
       "tree": {
         "nodes": [
           {
