@@ -1,0 +1,165 @@
+{
+  "name": "copy - test Publishflow",
+  "connectorType": "datagrid",
+  "userId": 999291859,
+  "domoClientId": null,
+  "domoClientSecret": null,
+  "additionalInfo": null,
+  "reportLength": 2,
+  "days": 7,
+  "reports": [
+    "test",
+    "Past Hour"
+  ],
+  "advancedReports": null,
+  "guid": "ef5aeee2-1828-419b-a301-878aa713cec6",
+  "publishPrivate": true,
+  "visibilityType": {
+    "label": "Private to your company",
+    "value": "private"
+  },
+  "parameters": [
+    {
+      "name": "para1",
+      "type": "dateSelector",
+      "required": false,
+      "order": -1,
+      "options": [],
+      "command": null,
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:972"
+    },
+    {
+      "name": "para2",
+      "type": "discovery",
+      "required": false,
+      "order": 0,
+      "options": [],
+      "command": {
+        "name": "para2",
+        "code": "// Create node using discovery.tree as the parent\r\nvar northAmerica = discovery.addNode(discovery.tree,\"North America\");\r\n  // Add Leaves\r\n  discovery.addLeaf(northAmerica,\"Canada\");\r\n  discovery.addLeaf(northAmerica,\"USA\");\r\n  discovery.addLeaf(northAmerica, \"Mexico\");\r\n\r\nvar centralAmerica = discovery.addNode(discovery.tree, \"Central America\");\r\n  discovery.addLeaf(centralAmerica,\"Panama\");\r\n  discovery.addLeaf(centralAmerica,\"Costa Rica\");\r\n\r\nvar southAmerica = discovery.addNode(discovery.tree, \"South America\");\r\n  // Nesting nodes in the southAmerica node\r\n  var west = discovery.addNode(southAmerica, \"West\");\r\n  var east = discovery.addNode(southAmerica, \"East\");\r\n  discovery.addLeaf(east,\"Argentina\");\r\n  discovery.addLeaf(west, \"Chile\");\r\n  discovery.addLeaf(west,\"Peru\");\r\n  discovery.addLeaf(east, \"Brazil\");\r\n\r\n// Remember to publish the tree\r\ndiscovery.publishTree();",
+        "type": "dropdown",
+        "index": 1
+      },
+      "helpText": null,
+      "showWhen": "",
+      "value": null,
+      "dateSelectorValue": null,
+      "$$hashKey": "object:973",
+      "tree": {
+        "nodes": [
+          {
+            "expanded": false,
+            "label": "North America",
+            "nodes": [
+              {
+                "expanded": false,
+                "label": "Canada",
+                "leaf": true,
+                "nodes": []
+              },
+              {
+                "expanded": false,
+                "label": "USA",
+                "leaf": true,
+                "nodes": []
+              },
+              {
+                "expanded": false,
+                "label": "Mexico",
+                "leaf": true,
+                "nodes": []
+              }
+            ],
+            "leaf": false
+          },
+          {
+            "expanded": false,
+            "label": "Central America",
+            "nodes": [
+              {
+                "expanded": false,
+                "label": "Panama",
+                "leaf": true,
+                "nodes": []
+              },
+              {
+                "expanded": false,
+                "label": "Costa Rica",
+                "leaf": true,
+                "nodes": []
+              }
+            ],
+            "leaf": false
+          },
+          {
+            "expanded": false,
+            "label": "South America",
+            "nodes": [
+              {
+                "expanded": false,
+                "label": "West",
+                "nodes": [
+                  {
+                    "expanded": false,
+                    "label": "Chile",
+                    "leaf": true,
+                    "nodes": []
+                  },
+                  {
+                    "expanded": false,
+                    "label": "Peru",
+                    "leaf": true,
+                    "nodes": []
+                  }
+                ],
+                "leaf": false
+              },
+              {
+                "expanded": false,
+                "label": "East",
+                "nodes": [
+                  {
+                    "expanded": false,
+                    "label": "Argentina",
+                    "leaf": true,
+                    "nodes": []
+                  },
+                  {
+                    "expanded": false,
+                    "label": "Brazil",
+                    "leaf": true,
+                    "nodes": []
+                  }
+                ],
+                "leaf": false
+              }
+            ],
+            "leaf": false
+          }
+        ]
+      }
+    }
+  ],
+  "commands": null,
+  "showAdvanced": true,
+  "submittedVersion": 1,
+  "submittedMajorVersion": 0,
+  "publishedVersion": 0,
+  "workbenchEnabled": false,
+  "dataProviderCreated": false,
+  "description": null,
+  "tags": null,
+  "successResponseDefinition": null,
+  "errorResponseDefinition": null,
+  "updateCode": false,
+  "requestingCustomerId": null,
+  "ownerId": null,
+  "ownerCustomerId": null,
+  "parentGuid": null,
+  "testingProfiles": null,
+  "visible": true
+}
