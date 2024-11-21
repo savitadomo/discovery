@@ -40,7 +40,7 @@
   ],
   "advancedReports": null,
   "guid": "ef5aeee2-1828-419b-a301-878aa713cec6",
-  "authorName": "Savita Shinde test",
+  "authorName": "Savita Shinde Local",
   "accesstokenMethod": null,
   "tokenAddlParams": null,
   "publishPrivate": true,
@@ -78,7 +78,99 @@
       "value": null,
       "dateSelectorValue": null,
       "$$hashKey": "object:172",
-      "tree": null
+      "tree": {
+        "nodes": [
+          {
+            "expanded": false,
+            "label": "North America",
+            "nodes": [
+              {
+                "expanded": false,
+                "label": "Canada",
+                "leaf": true,
+                "nodes": []
+              },
+              {
+                "expanded": false,
+                "label": "USA",
+                "leaf": true,
+                "nodes": []
+              },
+              {
+                "expanded": false,
+                "label": "Mexico",
+                "leaf": true,
+                "nodes": []
+              }
+            ],
+            "leaf": false
+          },
+          {
+            "expanded": false,
+            "label": "Central America",
+            "nodes": [
+              {
+                "expanded": false,
+                "label": "Panama",
+                "leaf": true,
+                "nodes": []
+              },
+              {
+                "expanded": false,
+                "label": "Costa Rica",
+                "leaf": true,
+                "nodes": []
+              }
+            ],
+            "leaf": false
+          },
+          {
+            "expanded": false,
+            "label": "South America",
+            "nodes": [
+              {
+                "expanded": false,
+                "label": "West",
+                "nodes": [
+                  {
+                    "expanded": false,
+                    "label": "Chile",
+                    "leaf": true,
+                    "nodes": []
+                  },
+                  {
+                    "expanded": false,
+                    "label": "Peru",
+                    "leaf": true,
+                    "nodes": []
+                  }
+                ],
+                "leaf": false
+              },
+              {
+                "expanded": false,
+                "label": "East",
+                "nodes": [
+                  {
+                    "expanded": false,
+                    "label": "Argentina",
+                    "leaf": true,
+                    "nodes": []
+                  },
+                  {
+                    "expanded": false,
+                    "label": "Brazil",
+                    "leaf": true,
+                    "nodes": []
+                  }
+                ],
+                "leaf": false
+              }
+            ],
+            "leaf": false
+          }
+        ]
+      }
     }
   ],
   "commands": null,
