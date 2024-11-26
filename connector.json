@@ -40,7 +40,7 @@
   ],
   "advancedReports": null,
   "guid": "ef5aeee2-1828-419b-a301-878aa713cec6",
-  "authorName": "Savita Shinde Remote",
+  "authorName": "Savita Shinde Local",
   "accesstokenMethod": null,
   "tokenAddlParams": null,
   "publishPrivate": true,
@@ -200,9 +200,9 @@
   "repository": null,
   "visible": true,
   "validImages": [
-    "iconWithoutBackground",
     "iconWithBackground",
     "logoWithBackground",
+    "iconWithoutBackground",
     "logoWithoutBackground"
   ]
 }
