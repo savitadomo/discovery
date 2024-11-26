@@ -7,9 +7,9 @@
   ],
   "authorName": "Savita Shinde Remote",
   "validImages": [
-    "logoWithBackground",
-    "iconWithBackground",
     "iconWithoutBackground",
+    "iconWithBackground",
+    "logoWithBackground",
     "logoWithoutBackground"
   ]
 }

@@ -200,9 +200,9 @@
   "repository": null,
   "visible": true,
   "validImages": [
-    "logoWithBackground",
-    "iconWithBackground",
     "iconWithoutBackground",
+    "iconWithBackground",
+    "logoWithBackground",
     "logoWithoutBackground"
   ]
 }
