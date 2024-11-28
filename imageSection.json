@@ -8,8 +8,8 @@
   "authorName": "Savita Shinde Local",
   "validImages": [
     "iconWithBackground",
-    "logoWithBackground",
     "iconWithoutBackground",
+    "logoWithBackground",
     "logoWithoutBackground"
   ]
 }

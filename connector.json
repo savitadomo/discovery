@@ -201,8 +201,8 @@
   "visible": true,
   "validImages": [
     "iconWithBackground",
-    "logoWithBackground",
     "iconWithoutBackground",
+    "logoWithBackground",
     "logoWithoutBackground"
   ]
 }
