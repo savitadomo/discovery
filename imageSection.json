@@ -7,9 +7,9 @@
   ],
   "authorName": "Savita Shinde Local",
   "validImages": [
-    "iconWithBackground",
-    "iconWithoutBackground",
     "logoWithBackground",
+    "iconWithoutBackground",
+    "iconWithBackground",
     "logoWithoutBackground"
   ]
 }
