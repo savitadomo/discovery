@@ -1,7 +1,7 @@
 {
   "type": "basic",
   "authCodeText": "var res = httprequest.get('http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.geojson');  \r\n\r\nDOMO.log('res: ' + res);\r\n\r\nif (httprequest.getStatusCode() == 200) {\r\n  auth.authenticationSuccess();\r\n} else {\r\n  auth.authenticationFailed('Error connecting to earthquake.usgs.gov');\r\n}",
-  "userName": "test",
+  "userName": "Savita Shinde",
   "password": "new",
   "apiKey": "",
   "clientKey": "",
